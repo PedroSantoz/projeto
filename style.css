@@ -38,7 +38,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588;
   margin: 56px auto 0px; /* para posicionar a peça (do estilo block{não inline} no centro da tela (lei do relógio, em cima, direita, em baixo e esquerda */
   padding: 0 24px;
 }
